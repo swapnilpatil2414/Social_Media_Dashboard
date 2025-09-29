@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Social Media Dashboard</title>
+  <link rel="stylesheet" href="social.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <!-- Sidebar -->
+  <aside class="sidebar">
+    <div class="logo">SocialDash</div>
+    <ul class="nav-links">
+      <li><a href="#"><i class="fas fa-home"></i> Home</a></li>
+      <li><a href="#"><i class="fas fa-chart-line"></i> Analytics</a></li>
+      <li><a href="#"><i class="fas fa-envelope"></i> Messages</a></li>
+      <li><a href="#"><i class="fas fa-bell"></i> Notifications</a></li>
+      <li><a href="#" id="toggle-dark"><i class="fas fa-moon"></i> Dark Mode</a></li>
+    </ul>
+  </aside>
+
+  <!-- Main Content -->
+  <main>
+    <header>
+      <h1>Social Media Dashboard</h1>
+      <div class="profile">
+        <img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png" alt="Profile Picture">
+        <span class="notification">3</span>
+      </div>
+    </header>
+
+    <!-- Stats Cards -->
+    <section class="stats-cards">
+      <div class="card">
+        <div class="icon"><i class="fas fa-users"></i></div>
+        <h3>Followers</h3>
+        <p id="followers">0</p>
+      </div>
+      <div class="card">
+        <div class="icon"><i class="fas fa-heart"></i></div>
+        <h3>Likes</h3>
+        <p id="likes">0</p>
+      </div>
+      <div class="card">
+        <div class="icon"><i class="fas fa-pen-nib"></i></div>
+        <h3>Posts</h3>
+        <p id="posts">0</p>
+      </div>
+      <div class="card">
+        <div class="icon"><i class="fas fa-comment"></i></div>
+        <h3>Messages</h3>
+        <p id="messages">0</p>
+      </div>
+    </section>
+
+    <!-- Chart Section -->
+    <section class="chart-section">
+      <canvas id="followersChart"></canvas>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
