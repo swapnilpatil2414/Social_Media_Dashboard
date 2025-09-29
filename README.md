@@ -1,6 +1,6 @@
 # Social Media Dashboard
 
-![Social Media Dashboard Screenshot]
+[Social Media Dashboard Screenshot]
 
 A modern, responsive, and professional **Social Media Dashboard** built using **HTML, CSS, and JavaScript**.  
 Perfect for your web development portfolio and showcasing frontend skills.
@@ -29,18 +29,3 @@ Perfect for your web development portfolio and showcasing frontend skills.
 
 ---
 
-## **Live Demo**
-
-You can deploy this dashboard using **Netlify** or **Vercel**:
-
-- [Netlify Deployment](https://www.netlify.com/)
-- [Vercel Deployment](https://vercel.com/)
-
----
-
-## **Installation / Usage**
-
-1. Clone the repository:
-
-```bash
-git clone https://github.com/yourusername/social-media-dashboard.git
