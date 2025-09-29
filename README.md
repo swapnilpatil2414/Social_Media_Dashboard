@@ -1,6 +1,6 @@
 # Social Media Dashboard
 
-![Social Media Dashboard Screenshot](screenshot.png)
+![Social Media Dashboard Screenshot]
 
 A modern, responsive, and professional **Social Media Dashboard** built using **HTML, CSS, and JavaScript**.  
 Perfect for your web development portfolio and showcasing frontend skills.
